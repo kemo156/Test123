@@ -1,0 +1,47 @@
+pwd - see directory
+
+cd ~ = cd change directory ~ means home
+
+cd ..
+
+ls
+
+cd kim
+
+cd desktop
+
+cd Tuna
+
+
+======
+
+1. git init
+		ls -la (this will list the hidden files)
+2. git add .
+
+3. git commit -m "This is our first commit"
+
+	View commit history ----  git log
+	If you want only the specific author to show commit history
+	git log --author="Kim"
+	
+	If you want to check if naka commit na tanan file
+	"git status" mo list siya sa mga wala naka commit otherwise walay display
+
+	
+
+
+
+
+ls
+cd desktop
+cd Tuna
+git remote add origin <link sa repository>
+
+git remote add origin https://github.com/kemo156/Test123.git
+
+git remote -v
+
+git add .
+git commit -m "First Commit"
+git push origin master
